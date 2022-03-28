@@ -1,6 +1,6 @@
 import java.util.*;
-public class add {
+public class work {
     public static void main(String[] args) {
-        System.out.print("hello world");
+        int arr[] = {1,2,3,4,5,6};
     }
 }
