@@ -1,7 +1,5 @@
 import java.util.Scanner;
-
-import javax.lang.model.util.ElementScanner14;
-public class greaterof3no {
+public class greater3 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int a = scn.nextInt();
