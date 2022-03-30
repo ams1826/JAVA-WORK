@@ -1,3 +1,5 @@
+//12345
+
 import java.util.Scanner;
 public class rotateno {
     public static void main(String[] args) {
