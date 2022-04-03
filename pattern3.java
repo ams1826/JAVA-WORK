@@ -1,3 +1,5 @@
+//Print triangle right angled at right
+
 import java.util.Scanner;
 public class pattern3 {
     public static void main(String[] args) {

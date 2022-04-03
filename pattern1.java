@@ -1,10 +1,4 @@
-/*
-*
-**
-***
-****
-*****
-*/
+//Print triangle right angled at left
 
 import java.util.Scanner;
 public class pattern1 {
@@ -19,3 +13,11 @@ public class pattern1 {
         }
     }
 }
+
+/*
+    *
+    **
+    ***
+    ****
+    *****
+*/
