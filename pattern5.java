@@ -7,12 +7,13 @@ public class pattern5 {
         int n = scn.nextInt();
         for(int r=1; r<=n; r++){
             for(int c=1; c<=n; c++){
-                if(r==c){
+                if((r+c)==(n+1)){
                     System.out.print("*\t");
                 }else{
                     System.out.print("\t");
                 }
             }
+            System.out.println();
             System.out.println();
         }
     }
