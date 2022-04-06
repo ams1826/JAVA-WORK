@@ -1,4 +1,4 @@
-//Printing kite pattern
+//Printing Diamond
 
 import java.util.Scanner;
 public class pattern9 {
