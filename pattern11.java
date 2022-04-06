@@ -1,3 +1,5 @@
+//Pattern similar to diamond
+
 import java.util.Scanner;
 public class pattern11 {
     public static void main(String[] args) {
