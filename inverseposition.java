@@ -1,4 +1,4 @@
-//position * (10^[digit-1])   ---->  position * (int)Math.pow(10,digit-1)
+//Position * (10^[digit-1])   ---->  position * (int)Math.pow(10,digit-1)
 
 import java.util.Scanner;
 public class inverseposition {

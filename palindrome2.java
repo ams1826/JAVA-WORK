@@ -1,3 +1,8 @@
+/*Checking that the numbwe is palindrome or not
+   Methid 2:- Reversing the whole number and then comparing it
+              to cheack it is palindrome or not.
+*/
+
 import java.util.Scanner;
 public class palindrome2 {
     public static void main(String[] args) {

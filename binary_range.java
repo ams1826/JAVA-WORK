@@ -1,4 +1,4 @@
-/*Taking array and searching the element in it and print it's index and
+/*Taking array and by using binary search , searching the element in it and print it's index and
   if the element is not present then print the rang in where that element comes.
          example :- A[5] = [1 , 3 , 6 , 7 , 10]
                     search = 1 _______ present at index 0

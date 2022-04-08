@@ -1,3 +1,5 @@
+//Finding the greater of the 3 numbers
+
 import java.util.Scanner;
 public class greater3 {
     public static void main(String[] args) {

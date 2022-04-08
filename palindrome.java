@@ -1,3 +1,14 @@
+/* Checking that the numbwe is palindrome or not
+   Methid 1:- Spliting number in 2 parts
+              Them reversing the 2nd part and comparing with 1st half
+                exaample:- 1234321
+                           1st half = 123
+                           2nd half = 321
+                           reversing 2nd half = 123
+                           comparing 1st half reversed 2nd half and cheacking
+                           if the number is palindrome or not
+*/
+
 import java.util.Scanner;
 public class palindrome {
     public static void main(String[] args) {
