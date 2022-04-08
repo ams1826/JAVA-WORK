@@ -8,10 +8,16 @@ public class pattern16 {
         int row=1 ;
         while(row<=n){
             for(int i=1; i<=n; i++){
-                if(row==n/2+1 || i==n/2+1){
-                    System.out.print("*");
+                if(i!=n/2 || row==(n/2)+1){
+                    if((i>(n/2)+1 && row==n/2) || (row>(n/2)+1 && i==n-1))
+                    {
+                        System.out.print("  ");
+                    }else{
+                        System.out.print("* ");
+                    }
+                    
                 }else{
-                    System.out.print(" ");
+                    System.out.print("  ");
                 }
             }
             System.out.println();
@@ -24,10 +30,10 @@ public class pattern16 {
 
 /*
 
-* * *   *
-    *   *
-* * * * *
-*   *
 *   * * *
+*   *
+* * * * *
+    *   *
+* * *   *
 
 */
