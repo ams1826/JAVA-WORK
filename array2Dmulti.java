@@ -3,7 +3,7 @@
 // algo name :: Strassen's Algorithm for matrix multiplication
 
 import java.util.Scanner;
-public class arraymulti {
+public class array2Dmulti {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int r1=2 , c1=3;
