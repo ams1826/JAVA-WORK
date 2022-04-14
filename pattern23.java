@@ -6,4 +6,5 @@ public class pattern23 {
 /*
 
 
+
 */
