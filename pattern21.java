@@ -10,5 +10,4 @@ public class pattern21 {
   1 0 1
     0
 
-    
 */
