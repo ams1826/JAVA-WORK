@@ -7,7 +7,7 @@ public class pattern22 {
         for(int row=0; row<a; row++){
             int ncr=1;
             for(int col=0; col<=row; col++){
-                System.out.print(ncr);
+                System.out.print(ncr+" ");
                 int n=row , r=col;
                 int ncrp1 = (n-r)*ncr/(r+1);
                 ncr = ncrp1;
@@ -16,9 +16,6 @@ public class pattern22 {
         }
     }
 }
-
-
-
 
 
     // public static int fac(int n) {
