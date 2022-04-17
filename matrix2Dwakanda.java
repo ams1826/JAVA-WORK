@@ -29,6 +29,15 @@ public class matrix2Dwakanda {
 
 /*
 
+1 2 3
+4 5 6
+7 8 9
 
+- 1
+  5
+  9
+- 2
+  6
+- 3
 
 */
