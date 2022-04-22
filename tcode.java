@@ -1,33 +1,41 @@
+//Printing equivalent triangle
+
 import java.util.Scanner;
 public class tcode {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
-        int r= 1 , spaces = n/2 , stars = 1;
-        while(r<=n){
-        //spaces
-            for(int i=1; i<=spaces; i++){
+        int row=1,stars=1,spaces=n-1;
+        while(row<=n){
+            //spaces
+            for(int i = 1;i<=spaces;i++){
                 System.out.print(" ");
             }
-        //stars
-            for(int j=1; j<=stars; j++){
-                if((r+j)%2!=0 || r==j){
+
+            //stars
+            for(int i = 1;i<=stars;i++){
+                if(i%2==0){
                     System.out.print(" ");
+                }else{
+                    System.out.print("*");
                 }
-                else{
-                    System.out.print("* ");
-                }
+                
             }
             System.out.println();
-            if(r<=n/2){
-                spaces--;
-                stars+=2;
-            }
-            else{
-                spaces++;
-                stars-=2;
-            }
-            r++;
+            //preparing for the next row
+            stars+=2;
+            spaces--;
+            row++;
+            
         }
+        
     }
 }
+
+
+/*
+   *
+  * *
+ * * *
+* * * *
+*/
