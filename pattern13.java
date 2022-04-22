@@ -10,15 +10,15 @@ public class pattern13 {
         //space
             for(int i=1; i<=spaces; i++){
                 if(row==(n/2)+1){
-                    System.out.print("*\t");
+                    System.out.print("*");
                 }
                 else{
-                    System.out.print("\t");
+                    System.out.print(" ");
                 }
             }
 
             for(int j=1; j<=stars; j++){
-                System.out.print("*\t");
+                System.out.print("*");
             }
             System.out.println();
             if(row<=n/2){
