@@ -26,4 +26,5 @@ public class pattern4 {
   *
    *
     *
+    
 */
