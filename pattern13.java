@@ -39,4 +39,5 @@ public class pattern13 {
 * * * * *
     * *
     *
+
 */
