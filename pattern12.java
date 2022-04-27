@@ -29,6 +29,7 @@ public class pattern12 {
 
 
 /*
+
    *
   * *
  * * *
