@@ -33,6 +33,7 @@ public class pattern13 {
 }
 
 /*
+
     *
     * *
 * * * * *
