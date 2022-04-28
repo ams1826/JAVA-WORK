@@ -55,7 +55,7 @@ public class pattern16 {
     }
 }
 /*
-jggvkjhbjbjhbkhjkh
+
 *   * * *
 *   *
 * * * * *
