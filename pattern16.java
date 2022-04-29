@@ -67,6 +67,4 @@ public class pattern16 {
 
 
 
-ljnc alnadlvnslvsn c bn c.j vkj vndc
-
-ckjvnfvf fn jn ljbn 
+lj
