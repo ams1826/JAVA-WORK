@@ -63,8 +63,3 @@ public class pattern16 {
 * * *   *
 
 */
-
-
-
-
-lj
