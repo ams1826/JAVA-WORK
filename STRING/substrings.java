@@ -1,3 +1,5 @@
+//Printing all sub-strings
+
 package STRING;
 
 import java.util.Scanner;
@@ -15,3 +17,14 @@ public class substrings {
         }
     }
 }
+
+/*
+string : A B C D
+
+sub strings : A         B       C       D
+              AB        BC      CD
+              ABC       BCD
+              ABCD
+
+
+*/
