@@ -1,5 +1,5 @@
 //Changing uppercase to lowercase & lowercase to uppercase
-// and writing difference between two consecutive letters
+// and writing integer difference of two consecutive letters between them.
 
 import java.util.*;
 public class toggleCASE {
@@ -16,14 +16,14 @@ public class toggleCASE {
                 char s1 = str.charAt(i);
                 char s2 = str.charAt(j);
                 int d = s1 - s2;
-                sb.append(ans +" "+ d);
+                sb.append(ans +" "+ d +" ");
             }
             else if(ch>='A' && ch<='Z'){
                 char ans = (char)((ch-'A')+'a');
                 char s1 = str.charAt(i);
                 char s2 = str.charAt(j);
                 int d = s1 - s2;
-                sb.append(ans +" "+ d);
+                sb.append(ans +" "+ d +" ");
             }
             i++;
             if(j<str.length()-1){
@@ -38,6 +38,6 @@ public class toggleCASE {
 /*
 
 I/P = A B c D e f g
-O/P = a -1b -33C 31d -33E -1F -1G 0
+O/P = a -1 b -33 C 31 d -33 E -1 F -1 G 0
 
 */
