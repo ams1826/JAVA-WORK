@@ -25,6 +25,4 @@ sub strings : A         B       C       D
               AB        BC      CD
               ABC       BCD
               ABCD
-
-
 */
