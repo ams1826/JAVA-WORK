@@ -15,16 +15,14 @@ public class toggleCASE {
                 char s1 = str.charAt(i);
                 char s2 = str.charAt(j);
                 int d = s1 - s2;
-                char dd= (char)(d);
-                sb.append(ans +" "+ dd);
+                sb.append(ans +" "+ d);
             }
             else if(ch>='A' && ch<='Z'){
                 char ans = (char)((ch-'A')+'a');
                 char s1 = str.charAt(i);
                 char s2 = str.charAt(j);
                 int d = s1 - s2;
-                char dd= (char)(d);
-                sb.append(ans +" "+ dd);
+                sb.append(ans +" "+ d);
             }
             i++;
             if(j<str.length()-1){
