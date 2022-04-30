@@ -12,24 +12,14 @@ public class toggleCASE {
             char ch = str.charAt(i);
             if(ch>='a' && ch<='z'){
                 char ans = (char)((ch-'a')+'A');
-                char s1 = str.charAt(i);
-                char s2 = str.charAt(j);
-                int d = s1 - s2;
-                sb.append(ans +" "+ d);
+                sb.append(ans);
             }
             else if(ch>='A' && ch<='Z'){
                 char ans = (char)((ch-'A')+'a');
-                char s1 = str.charAt(i);
-                char s2 = str.charAt(j);
-                int d = s1 - s2;
-                sb.append(ans +" "+ d);
+                sb.append(ans);
             }
             i++;
-            if(j<str.length()-1){
-                j++;
-            }
         }
-
         System.out.println(sb);
     }
 }
