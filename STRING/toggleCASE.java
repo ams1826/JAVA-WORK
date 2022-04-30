@@ -7,7 +7,6 @@ public class toggleCASE {
         String str = scn.next();
         StringBuilder sb = new StringBuilder();
         int i=0;
-        int j=1;
         while(i<str.length()){
             char ch = str.charAt(i);
             if(ch>='a' && ch<='z'){
