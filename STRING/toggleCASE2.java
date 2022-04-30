@@ -2,7 +2,7 @@
 // and writing integer difference of two consecutive letters between them.
 
 import java.util.*;
-public class toggleCASE {
+public class toggleCASE2 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         String str = scn.next();
