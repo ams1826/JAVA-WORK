@@ -38,6 +38,8 @@ public class toggleCASE2 {
 /*
 
 I/P = A B c D e f g
+    A(65) B(67) --> 65-67 = -1
+                    ''''''''''
 O/P = a -1 b -33 C 31 d -33 E -1 F -1 G 0
 
 */
