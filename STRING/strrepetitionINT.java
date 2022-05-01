@@ -32,7 +32,6 @@ public class strrepetitionINT {
 }
 
 /*
-hgffcyckckuc
 wwwwaaadexxxxxx
 
 w4a3dex6
