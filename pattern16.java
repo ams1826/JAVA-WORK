@@ -62,7 +62,4 @@ public class pattern16 {
     *   *
 * * *   *
 
-
-zjx  iyv
-ytcku kuugv
 */
