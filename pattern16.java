@@ -63,5 +63,8 @@ public class pattern16 {
 * * *   *
 
 
-
+zjx  iyv
+ytcku kuugv
+uycy u uvbkiyfjv 
+ fkuvkuvuy  v vkugv jgv uv j  yuyg lv kjgv kuvyi 
 */
