@@ -61,5 +61,6 @@ public class pattern16 {
 * * * * *
     *   *
 * * *   *
+hsjdykjhb bhjn vghn vgn b dfdffbvc dfffbv 
 
 */
