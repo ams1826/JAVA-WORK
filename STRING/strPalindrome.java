@@ -1,3 +1,5 @@
+//Printing every pallindrome present in a string
+
 package STRING;
 
 
