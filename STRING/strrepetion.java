@@ -1,3 +1,5 @@
+//Printing single value of for multiple words
+
 package STRING;
 
 import java.util.Scanner;
