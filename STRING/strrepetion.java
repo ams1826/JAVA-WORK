@@ -23,11 +23,7 @@ public class strrepetion {
 }
 
 
-/*jhbvsuhf blsbvlilg.dhbv lbvlg gbv 
-v ilnvlin lvn g
- vb rivbg vhb bg
- gbg vbgv v ver 735g tr
-
+/*
 
 wwwwaaadexxxxxx
 
