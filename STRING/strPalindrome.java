@@ -33,3 +33,12 @@ public class strPalindrome {
         }
     }
 }
+
+/*
+
+Input : AASDD
+
+output : A      A       S       D       D
+         AA                     DD
+
+*/
