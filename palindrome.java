@@ -7,15 +7,6 @@
                            reversing 2nd half = 123
                            comparing 1st half reversed 2nd half and cheacking
                            if the number is palindrome or not
-                
-            cfcvbv k vj v jgiyugiyi  jhbjg
-            liygvuyv jhbjhb hjv uf yg l yg
-            l  vlljhhv jlhbhlvb ljhb li glig
-            ihh glv jhv b hb hjlb ,g,ig iglg i g
-            luv jlhv ljjv j,hv ,jhg ,jgh ,jg ilg lg
-            k fkjfkh fkllf ulfufufuyf ,jfukyf uyfkuyfu k
-            uygfgu jv jhhjhvjhvyfg uyuyffkllglyufgulyff
-            'uyf uyfluf v jf jgk,uy gy
 */
 
 import java.util.Scanner;
