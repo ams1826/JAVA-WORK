@@ -9,18 +9,16 @@ public class pattern14 {
         while(row<=n){
             for(int i=1; i<=n; i++){
                 if(i==1 || i==n){
-                    System.out.print("*\t");
+                    System.out.print("*");
                 }
                 else if(row==i || (row+i)==(n+1) ){
                     if(row<=n/2+1){
-                        System.out.print("*\t");
-
+                        System.out.print("*");
                     }else{
-                        System.out.print("\t");
+                        System.out.print(" ");
                     }
-                    
                 }else{
-                    System.out.print("\t");
+                    System.out.print(" ");
                 }
             }
             System.out.println();
