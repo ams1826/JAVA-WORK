@@ -1,3 +1,5 @@
+//Printing in Increasing order(1 2 3) and Decreasing order(3 2 1)
+
 package Recursion;
 import java.util.*;
 public class first {
