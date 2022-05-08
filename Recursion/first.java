@@ -1,16 +1,27 @@
 package Recursion;
 import java.util.*;
 public class first {
-    public static void print(int n) {
+//Printing 1 2 3 4 5
+    public static void printINC(int n) {
         if(n==0){
             return;
         }
-        print(n-1);
+        printINC(n-1);
         System.out.println(n);
     }
+//Printing 5 4 3 2 1
+    public static void printDEC(int n) {
+        if(n==0){
+            return;
+        }
+        System.out.println(n);
+        printDEC(n-1);
+    }
+
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
-        print(n);
+        printINC(n);
+        printDEC(n);
     }
 }
