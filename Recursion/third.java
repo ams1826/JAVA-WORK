@@ -19,3 +19,11 @@ public class third {
         System.out.print(ans);
     }
 }
+
+/*
+
+5!
+
+5x4x3x2x1 = 120
+
+*/
