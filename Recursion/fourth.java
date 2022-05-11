@@ -16,4 +16,3 @@ public class fourth {
         System.out.print(ans);
     }
 }
-ghcmhgfc,hghc,gcj,gcv,jvgjgbgbgbgfdbgfdbghdggbh
