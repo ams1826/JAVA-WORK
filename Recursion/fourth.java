@@ -1,4 +1,5 @@
 //Printing number raise to some power using recursion
+// 2^5 = 32
 
 import java.util.*;
 public class fourth {
