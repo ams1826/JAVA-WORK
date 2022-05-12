@@ -1,3 +1,5 @@
+//Printing number raise to some power using recursion
+
 import java.util.*;
 public class fourth {
     public static int power(int n , int p){
