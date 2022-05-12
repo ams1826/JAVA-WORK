@@ -1,3 +1,4 @@
+//Printing all prime factors (prime factorisation)
 import java.util.Scanner;
 public class primefactorisation {
     public static void main(String[] args) {
