@@ -6,7 +6,8 @@ public class prime {
         Scanner scn = new Scanner(System.in);
         int a = scn.nextInt();
         int count = 0;
-        for(int i=2; i*i<a ;i++){
+        for(int i=2; i*i<=a ;i++){
+            System.out.println(i);
             if(a%i==0){
                 count = 1;
                 break;
