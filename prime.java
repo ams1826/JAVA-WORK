@@ -1,3 +1,5 @@
+//Fint if the number is prime or not
+
 import java.util.Scanner;
 public class prime {
     public static void main(String[] args) {
