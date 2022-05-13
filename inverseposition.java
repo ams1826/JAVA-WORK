@@ -11,6 +11,7 @@ public class inverseposition {
         while(temp!=0){
             temp = temp/10;
             count++;
+            // System.out.println(temp+"__"+count);
         }
         int p = 1;
         while(p<=count){
