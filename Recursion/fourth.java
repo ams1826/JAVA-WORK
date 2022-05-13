@@ -19,3 +19,7 @@ public class fourth {
         System.out.print(ans);
     }
 }
+khcfhgfukhgjcfxfcghjbhv 
+ vhgjghgcghjbb
+
+ jhvbjjkn
