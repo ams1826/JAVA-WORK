@@ -1,5 +1,5 @@
 //Printing number raise to some power using recursion
-// 2^5 = 32
+// By dividing the power
 
 package Recursion;
 import java.util.*;
