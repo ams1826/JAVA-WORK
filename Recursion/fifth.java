@@ -8,24 +8,18 @@ public class fifth {
         if(p==0){
             return 1;
         }
-        int po = power(n , p-1);
-        int m = n * po;
-        // System.out.println(n +" "+ p+" "+po+" "+m);
+        int po = power(n , p/2);
+        int m = po * po;
+        if(p%2 != 0){
+            m = m * n;
+        }
         return m;
     }
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
         int p = scn.nextInt();
-        int ans = power(n,p/2);
-    //EVEN
-        if(p%2==0){
-            ans*=ans;
-        }
-    //ODD
-        else{
-            ans*=ans*n;
-        }
+        int ans = power(n,p);
         System.out.print(ans);
     }
 }
