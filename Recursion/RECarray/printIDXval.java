@@ -13,6 +13,14 @@ public class printIDXval {
         printSTART(arr, idx+1);
     }
 
+//From n-1 to 0
+    public static void printEND(int arr[] , int idx) {
+        if(arr.length == idx){
+            return;
+        }
+        printEND(arr, idx+1);
+        System.out.println(arr[idx]);
+    }
 
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
@@ -24,5 +32,8 @@ public class printIDXval {
         }
         System.out.println("Printing values from 0 to n-1");
         printSTART(arr, 0);
+        System.out.println("Printing values from n-1 to 0");
+        printEND(arr,0);
+
     }
 }
