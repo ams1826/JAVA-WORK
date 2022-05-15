@@ -1,4 +1,8 @@
-//12345
+/*  n = 12345
+    k = 2
+    o/p --> 45123
+            ''<--position change
+*/
 
 import java.util.Scanner;
 public class rotateno {
