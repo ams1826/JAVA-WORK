@@ -13,7 +13,7 @@ public class firstIDX {
         if(arr[idx] == a){
             return idx;
         }
-        
+        return first(arr, idx+1 , a);
     }
 
 
