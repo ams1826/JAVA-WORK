@@ -9,5 +9,11 @@ public class lastIDX {
         for(int i=0;i<n;i++){
            arr[i]=scn.nextInt();
         }
+ //nummber to search
+        System.out.print("Enter value to search");
+        int a = scn.nextInt();
+//calling the function
+        int ans = first(arr , 0 , a);
+        System.out.println(ans);
     }
 }
