@@ -15,8 +15,9 @@ public class inverseposition {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
-        int temp = n;
-        int sum = 0 , count = 0 , ans =0;
+        // int temp = n;
+        // int sum = 0 , count = 0 ; 
+        int ans =0;
         int p=1;
         while(n!=0){
             int d = n%10;
