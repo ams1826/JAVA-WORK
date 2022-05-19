@@ -13,7 +13,7 @@ public class lastIDX {
         System.out.print("Enter value to search");
         int a = scn.nextInt();
 //calling the function
-        int ans = first(arr , 0 , a);
+        int ans = last(arr , 0 , a);
         System.out.println(ans);
     }
 }
