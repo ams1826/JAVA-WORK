@@ -16,20 +16,29 @@ public class inverseposition {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
         int temp = n;
-        int sum = 0;
-        int count = 0;
-        while(temp!=0){
-            temp = temp/10;
-            count++;
-            // System.out.println(temp+"__"+count);
-        }
-        int p = 1;
-        while(p<=count){
+        int sum = 0 , count = 0 , ans =0;
+        int p=1;
+        while(n!=0){
             int d = n%10;
-            int x = p*(int)Math.pow(10,d-1);
-            sum = sum + x;
+            int i = p * (int)Math.pow(10,d-1);
+            ans = ans + i;
             n = n/10;
             p++;
-        }System.out.println(sum);
+        }
+        System.out.print(ans);
+
+        // while(temp!=0){
+        //     temp = temp/10;
+        //     count++;
+        //     // System.out.println(temp+"__"+count);
+        // }
+        // int p = 1;
+        // while(p<=count){
+        //     int d = n%10;
+        //     int x = p*(int)Math.pow(10,d-1);
+        //     sum = sum + x;
+        //     n = n/10;
+        //     p++;
+        // }System.out.println(sum);
     }
 }
