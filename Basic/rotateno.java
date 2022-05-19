@@ -1,4 +1,5 @@
-/*  n = 12345
+/*  Rotating a number by K
+    n = 12345
     k = 2
     o/p --> 45123
             ''<--position change
