@@ -17,3 +17,7 @@ public class lastIDX {
         System.out.println(ans);
     }
 }
+
+kjkbjh wjckb 
+c ck jb kefb 
+jb ck bhiolef c,e bf
