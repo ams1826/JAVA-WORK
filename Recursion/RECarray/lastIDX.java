@@ -1,6 +1,19 @@
 package Recursion.RECarray;
 
+import java.util.*;
 public class lastIDX {
+
+    public static int last(int arr[] , int idx , int a) {
+        if(arr.length < 0){
+            return -1;
+        }
+        int res = last(arr , idx-1 , a);
+        if(arr[idx] == a){
+            return idx;
+        }
+        return last(arr, idx-1 , a);
+    }
+
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
@@ -13,11 +26,7 @@ public class lastIDX {
         System.out.print("Enter value to search");
         int a = scn.nextInt();
 //calling the function
-        int ans = last(arr , 0 , a);
+        int ans = last(arr , arr.length-1 , a);
         System.out.println(ans);
     }
 }
-
-kjkbjh wjckb 
-c ck jb kefb 
-jb ck bhiolef c,e bf
