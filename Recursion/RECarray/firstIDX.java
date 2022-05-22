@@ -1,4 +1,7 @@
-
+//Finding first index of a value occuring multiple times in array
+// I/P : 1 2 3 3 4 3
+// search : 3
+// O/P : index 2
 
 package Recursion.RECarray;
 import java.util.*;
