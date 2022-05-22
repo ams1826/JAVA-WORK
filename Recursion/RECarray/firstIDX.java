@@ -1,4 +1,4 @@
-//Finding minimum value in array using recursion
+
 
 package Recursion.RECarray;
 import java.util.*;
@@ -9,7 +9,6 @@ public class firstIDX {
         if(arr.length == idx){
             return -1;
         }
-        int res = first(arr , idx+1 , a);
         if(arr[idx] == a){
             return idx;
         }

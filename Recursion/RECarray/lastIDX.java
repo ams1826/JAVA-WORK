@@ -4,14 +4,14 @@ import java.util.*;
 public class lastIDX {
 
     public static int last(int arr[] , int idx , int a) {
-        if(arr.length < 0){
+        if(arr.length == 0){
             return -1;
         }
         int res = last(arr , idx-1 , a);
         if(arr[idx] == a){
             return idx;
         }
-        return last(arr, idx-1 , a);
+        return last(arr, idx+1 , a);
     }
 
     public static void main(String[] args) {

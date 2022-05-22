@@ -1,4 +1,4 @@
-//Finding minimum value in array using recursion
+//Finding maximum value in array using recursion
 
 
 package Recursion.RECarray;
