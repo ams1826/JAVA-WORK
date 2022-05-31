@@ -25,7 +25,7 @@ public class subseq {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         String s = scn.next();
-        ArrayList<String> an = sub(s);
-        System.out.println(an);
+        ArrayList<String> ans = sub(s);
+        System.out.println(ans);
     }
 }
