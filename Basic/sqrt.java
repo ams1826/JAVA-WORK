@@ -17,6 +17,13 @@ public class sqrt {
     //     Scanner scn = new Scanner(System.in);
     //     double a = scn.nextInt();
     //     double x = Math.sqrt(a);
+    //     int z = (int)Math.round(x);
+    //     if(z>x){
+    //         System.out.print(z-1);
+    //     }else{
+    //         System.out.print(z);
+    //     }
+    // }
 }
 
 
