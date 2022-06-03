@@ -25,3 +25,12 @@ public class sqrt {
     //     }
     // }
 }
+
+
+
+
+/*
+binary search
+pooint start on  0 and end on n/2
+start search by squaring the number
+*/
