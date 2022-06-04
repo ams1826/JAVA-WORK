@@ -35,4 +35,3 @@ public class firstIDX {
         System.out.println(ans);
     }
 }
-
