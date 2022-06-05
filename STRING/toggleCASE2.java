@@ -1,5 +1,5 @@
 //Changing uppercase to lowercase & lowercase to uppercase
-// and writing integer difference of two consecutive letters between them.
+// and writing ASCII difference of two consecutive letters between them.
 
 import java.util.*;
 public class toggleCASE2 {
