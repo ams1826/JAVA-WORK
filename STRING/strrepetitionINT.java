@@ -1,5 +1,4 @@
-//Printing single value of for multiple words with their
-// occurance in a single row
+//Printing single value of for multiple words with their number of occurance
 
 package STRING;
 
