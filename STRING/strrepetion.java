@@ -1,4 +1,4 @@
-//Printing single value of for multiple words
+//Printing single value for multiple words
 
 package STRING;
 
