@@ -3,6 +3,10 @@
 Gives all words that can be formed from the string
 by rearanging the letters
 
+    I/P : ABC
+    O/P : ABC     BAC     CAB
+          ACB     BCA     CBA
+
     -> Divide the quotient
     -> Append the remainder
     -> Delete the remainder
