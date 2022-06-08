@@ -34,9 +34,3 @@ public class anagram {
         System.out.print("yes anagram");
     }
 }
-
-
-
-
-// in phone pic
-// 21 / 05 / 2021
