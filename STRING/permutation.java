@@ -17,7 +17,7 @@ package STRING;
 import java.util.Scanner;
 
 public class permutation {
-//Finding FACTORIAL
+//Rearanging words
     public static void PER(String str) {
         int n = str.length();
         int fac = fact(n);
