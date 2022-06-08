@@ -27,7 +27,6 @@ public class toggleCASE2 {
                 j++;
             }
         }
-
         System.out.println(sb);
     }
 }
