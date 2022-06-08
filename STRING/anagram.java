@@ -31,7 +31,7 @@ public class anagram {
                 return ;
             }
         }
-        System.out.print("number is anagram");
+        System.out.print("yes anagram");
     }
 }
 
