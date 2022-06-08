@@ -1,4 +1,11 @@
+//ANAGRAM
+/*
+    I/P : RUN   FUN
+    O/P : not anagram
 
+    I/P : ABC   CBA
+    O/P : yes it is anagram
+*/
 import java.util.*;
 public class anagram {
 
