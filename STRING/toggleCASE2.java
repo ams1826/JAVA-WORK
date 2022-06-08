@@ -11,18 +11,15 @@ public class toggleCASE2 {
         int j=1;
         while(i<str.length()){
             char ch = str.charAt(i);
+            char s1 = str.charAt(i);
+            char s2 = str.charAt(j);
+            int d = s1 - s2;
             if(ch>='a' && ch<='z'){
                 char ans = (char)((ch-'a')+'A');
-                char s1 = str.charAt(i);
-                char s2 = str.charAt(j);
-                int d = s1 - s2;
                 sb.append(ans +" "+ d +" ");
             }
             else if(ch>='A' && ch<='Z'){
                 char ans = (char)((ch-'A')+'a');
-                char s1 = str.charAt(i);
-                char s2 = str.charAt(j);
-                int d = s1 - s2;
                 sb.append(ans +" "+ d +" ");
             }
             i++;
