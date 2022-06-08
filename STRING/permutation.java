@@ -1,5 +1,8 @@
 //Printing Permutation
 /*
+Gives all words that can be formed from the string
+by rearanging the letters
+
     -> Divide the quotient
     -> Append the remainder
     -> Delete the remainder
