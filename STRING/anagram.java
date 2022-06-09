@@ -8,7 +8,6 @@
 */
 import java.util.*;
 public class anagram {
-
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         String str1 = scn.next();
@@ -31,6 +30,6 @@ public class anagram {
                 return ;
             }
         }
-        System.out.print("yes anagram");
+        System.out.print("yes is an anagram");
     }
 }
