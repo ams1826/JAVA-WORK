@@ -4,8 +4,8 @@
                 K --> 2
         O/P : 4 5 1 2 3
 
-    For +ve value of K -->Last digit will come at first place and the process will repeat till the value of K
-    For -ve value of K -->First digit will go at last place and the process will repeat till the value of K
+    For +ve value of K -->Last digit will come at first place and the process will repeat till the value of K is 0.
+    For -ve value of K -->First digit will go at last place and the process will repeat till the value of K is 0.
 */
 
 import java.util.Scanner;
