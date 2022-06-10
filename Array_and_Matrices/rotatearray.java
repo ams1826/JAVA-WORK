@@ -4,9 +4,6 @@
                 K --> 2
 
         O/P : 4 5 1 2 3
-
-
-
 */
 
 import java.util.Scanner;
