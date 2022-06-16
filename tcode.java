@@ -10,6 +10,3 @@ public class tcode {
     System.out.println("\n");
     }
 }
-
-
-
