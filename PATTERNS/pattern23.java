@@ -1,4 +1,4 @@
-//
+//pattern
 
 public class pattern23 {
     
@@ -6,7 +6,6 @@ public class pattern23 {
 
 
 /*
-
 
 
 */
