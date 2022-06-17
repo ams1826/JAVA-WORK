@@ -1,4 +1,4 @@
-// Printing number pattern
+// Printing number pattern in diamond form
 
 public class pattern18 {
     public static void main(String[] args) {
