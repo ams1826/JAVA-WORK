@@ -50,20 +50,3 @@ public class addarray {
         return res;
     }
 }
-
-
-
-/*
-    1. this keyword reffers to the current object
-    inside a method or cunstructor
-    2. whenever the name of instance variable and
-    local variable both are same then our runtime
-    environment JVM gets confused that which one
-    is local variable and which one is instance variable
-    3. it is also used when we want to call the default
-    constructor of it's own class
-    4. it is also used to call parametrized constructor
-    of it's own class
- 
-
-*/
