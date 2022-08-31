@@ -1,9 +1,10 @@
 import java.util.Scanner;
 public class tcode {
-    public static void matri(int mat[][]) {
+    public static void matri(int mat[][] , int n) {
         int Rmin = 0 , Cmin = 0;
         int Rmax = mat.length-1 , Cmax = mat[0].length-1;
         int count = 0;
+    // outer wall_____________________________________________
             //top wall________________________
         for(int c=Cmin ; c<Cmax ; c++){
             count = count + mat[Rmin][c];
@@ -27,7 +28,19 @@ public class tcode {
             count = count + mat[r][Cmin];
             // System.out.print(count);
         }
+
+    //iner X__________________________________________________
+        for(int r=1; r<=n; r++){
+            for(int c=1; c<=n; c++){
+                if(r==c || (r+c)==(n+1)){
+                    count = count + mat[r-1][c-1];
+                }
+            }
+        }
     
+    //removing repeated values________________________________
+        count = count - mat[0][0] - mat[0][n-1] - mat[n-1][0] - mat[n-1][n-1];
+
         System.out.println(count);
     }
 
@@ -41,6 +54,6 @@ public class tcode {
             }
         }
 
-        matri(mat);
+        matri(mat,n);
     }
 }
