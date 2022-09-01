@@ -1,3 +1,14 @@
+/*
+adding values of matrix in pattern
+A = adding outer values of matrix  (outer 4 walls)
+B = adding values of matrix forming X  (pattern X)
+
+now adding A and B
+make sure no value is repeated in the process 
+i.e. remove repeated values from B before adding to A
+*/
+
+
 import java.util.*;
 
 public class matADDpt {
