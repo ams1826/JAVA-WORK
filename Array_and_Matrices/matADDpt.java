@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class matADDpt {
 
     public static void add(int mat[][] , int n){
