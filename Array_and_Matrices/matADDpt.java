@@ -6,6 +6,17 @@ B = adding values of matrix forming X  (pattern X)
 now adding A and B
 make sure no value is repeated in the process 
 i.e. remove repeated values from B before adding to A
+
+    A  B  C  D  E          A  B  C  D  E
+    F  G  H  I  J          F           J        G     I
+    K  L  M  N  O      =   K           O   +       M
+    P  Q  R  S  T          P           T        Q     S
+    U  V  W  X  Y          U  V  W  X  Y
+
+                            adding all values of square
+                                    +
+                            adding all values of X  (non repeating)
+
 */
 
 
