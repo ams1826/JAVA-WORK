@@ -1,5 +1,15 @@
 package PATTERNS;
+/*
 
+1
+23
+345
+4567
+56789
+
+*/
+
+import java.util.Scanner;
 public class pattern25 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
