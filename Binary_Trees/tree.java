@@ -38,10 +38,6 @@ public class tree {
 
             if(top.state == 1){
                 idx++;
-                
-                if(idx>15){
-                    break;
-                }
 
                 if(arr[idx] != null){
                     top.node.left = new Node(arr[idx], null, null);
