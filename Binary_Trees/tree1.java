@@ -1,7 +1,7 @@
 package Binary_Trees;
 
 import java.util.*;
-public class tree {
+public class tree1 {
 
     public static class Node {
         int data;

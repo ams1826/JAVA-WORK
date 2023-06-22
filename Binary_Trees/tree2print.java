@@ -2,7 +2,7 @@ package Binary_Trees;
 
 import java.util.*;
 
-public class treeprint {
+public class tree2print {
     public static class Node {
         int data;
         Node left;
@@ -26,6 +26,10 @@ public class treeprint {
     }
 
 
+
+
+//----------------------------------------DISPLAY BT----------------------------------------//
+
     public static void display(Node node) {
         if(node == null){
             return;
@@ -40,6 +44,10 @@ public class treeprint {
         display(node.left);
         display(node.right);
     }
+
+//----------------------------------------DISPLAY BT----------------------------------------//
+
+
 
 
     public static void main(String[] args) {
