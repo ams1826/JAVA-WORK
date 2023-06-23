@@ -1,6 +1,8 @@
 package Binary_Trees;
+
 import java.util.*;
-public class tree3funct {
+
+public class tree5LevelOrder {
     public static class Node {
         int data;
         Node left;
@@ -26,48 +28,30 @@ public class tree3funct {
 
 
 
-//--------------------FUNCTION--------------------SIZE----------SUM----------MAX----------HEIGHT----------//
-public static int size(Node node){
-    if(node == null){
-        return 0;
-    }
-    int ls = size(node.left);
-    int lr = size(node.right);
-    int ts = ls + lr + 1;
-    return ts;
-}
+//----------------------------------------LEVEL ORDER----------------------------------------//
 
-public static int sum(Node node){
-    if(node==null){
-        return 0;
-    }
-    int lsm = sum(node.left);
-    int rsm = sum(node.right);
-    int tsm = lsm + rsm + node.data;
-    return tsm;
-}
+    public static void levelOrder(Node node) {
+        Queue<Node> mq = new ArrayDeque<>();
+        mq.add(node);
 
-public static int max(Node node){
-    if(node==null){
-        return Integer.MIN_VALUE;
-    }
-    int lm = max(node.left);
-    int rm = max(node.right);
-    int tm = Math.max(node.data, Math.max(lm,rm));
-    return tm;
-}
+        while(mq.size() > 0){
+            int count = mq.size();
+            for(int i=0; i<count; i++){
+                node = mq.remove();
+                System.out.print(node.data + " ");
 
-public static int height(Node node){
-    if(node==null){
-        return -1;
+                if(node.left != null){
+                    mq.add(node.left);
+                }
+                if(node.right != null){
+                    mq.add(node.right);
+                }
+            }
+            System.out.println();
+        }
     }
-    int lh = height(node.left);
-    int rh = height(node.right);
-    int th = Math.max(lh, rh) + 1;
-    return th;
-}
 
-//----------------------------------------FUNCTION----------------------------------------//
+//----------------------------------------LEVEL ORDER----------------------------------------//
 
 
 
@@ -123,13 +107,6 @@ public static int height(Node node){
             }
         }
 
-        int size = size(root);
-        int sum = sum(root);
-        int max = max(root);
-        int height = height(root);
-        System.out.println("size " + size);
-        System.out.println("sum " + sum);
-        System.out.println("max " + max);
-        System.out.println("height " + height);
+        levelOrder(root);
     }
 }

@@ -1,6 +1,8 @@
 package Binary_Trees;
-import java.util.*;
-public class tree3funct {
+
+import java.util.Stack;
+
+public class tree4traversal {
     public static class Node {
         int data;
         Node left;
@@ -26,48 +28,21 @@ public class tree3funct {
 
 
 
-//--------------------FUNCTION--------------------SIZE----------SUM----------MAX----------HEIGHT----------//
-public static int size(Node node){
-    if(node == null){
-        return 0;
-    }
-    int ls = size(node.left);
-    int lr = size(node.right);
-    int ts = ls + lr + 1;
-    return ts;
-}
+//----------TRAVERSAL----------Preorder----------Inorder----------Postorder----------------------------------------//
 
-public static int sum(Node node){
-    if(node==null){
-        return 0;
-    }
-    int lsm = sum(node.left);
-    int rsm = sum(node.right);
-    int tsm = lsm + rsm + node.data;
-    return tsm;
-}
+    public static void traversal(Node node) {
+        if(node==null){
+            return;
+        }
 
-public static int max(Node node){
-    if(node==null){
-        return Integer.MIN_VALUE;
+        System.out.println(node.data + " preorder");
+        traversal(node.left);
+        System.out.println(node.data + " inorder");
+        traversal(node.right);
+        System.out.println(node.data + " postorder");
     }
-    int lm = max(node.left);
-    int rm = max(node.right);
-    int tm = Math.max(node.data, Math.max(lm,rm));
-    return tm;
-}
 
-public static int height(Node node){
-    if(node==null){
-        return -1;
-    }
-    int lh = height(node.left);
-    int rh = height(node.right);
-    int th = Math.max(lh, rh) + 1;
-    return th;
-}
-
-//----------------------------------------FUNCTION----------------------------------------//
+//----------------------------------------TRAVERSAL----------------------------------------//
 
 
 
@@ -123,13 +98,6 @@ public static int height(Node node){
             }
         }
 
-        int size = size(root);
-        int sum = sum(root);
-        int max = max(root);
-        int height = height(root);
-        System.out.println("size " + size);
-        System.out.println("sum " + sum);
-        System.out.println("max " + max);
-        System.out.println("height " + height);
+        traversal(root);
     }
 }
