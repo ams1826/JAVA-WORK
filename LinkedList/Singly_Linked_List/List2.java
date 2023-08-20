@@ -2,8 +2,6 @@
 
 package LinkedList.Singly_Linked_List;
 
-import Recursion.first;
-
 public class List2 {
     public static class Node{
         public int data;
