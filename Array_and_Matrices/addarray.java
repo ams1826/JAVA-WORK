@@ -3,18 +3,21 @@ public class addarray {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
     //array 1 
+        System.out.println("For array 1");
         int n1 = scn.nextInt();
         int arr1[] = new int[n1];
         for(int i=0;i<n1;i++){
            arr1[i]=scn.nextInt();
         }
     // array 2
+        System.out.println("For array 2");
         int n2 = scn.nextInt();
         int arr2[] = new int[n2];
         for(int i=0;i<n2;i++){
             arr2[i]=scn.nextInt();
          }
         
+        System.out.println("Addition of both arrays");
         int res[] = add(arr1,arr2);
         for(int val:res){
             System.out.println(val);
