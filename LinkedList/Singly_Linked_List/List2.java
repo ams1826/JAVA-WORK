@@ -1,6 +1,6 @@
 // Printing Linked List
 
-package LinkedList;
+package LinkedList.Singly_Linked_List;
 
 import Recursion.first;
 

@@ -1,6 +1,6 @@
 // Creating a Linked List and inserting elements in List
 
-package LinkedList;
+package LinkedList.Singly_Linked_List;
 public class List1 {
 
     public static class Node{
