@@ -107,6 +107,6 @@ public class tree6iterate {
                 st.pop();
             }
         }
-        display(root);
+        // display(root);
     }
 }
