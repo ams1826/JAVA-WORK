@@ -5,7 +5,7 @@ public class pallindrome {
         StringBuilder result = new StringBuilder(str);
         int n = result.length();
         int i = 0;
-        while(i<n/2){
+        while(i < n/2){
             if(result.charAt(i) != result.charAt(n-i-1)){
                 return false;
             }
@@ -25,8 +25,9 @@ public class pallindrome {
             }
             
         }
-        catch(Exception e1){
-            System.out.println("Error occured");
+        catch(Exception e){
+            System.out.println("Error occured " + e.getMessage());
+            e.printStackTrace();
         }
     }
 }
