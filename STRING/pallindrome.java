@@ -3,13 +3,14 @@ public class pallindrome {
 
     public static boolean isPallindrome(String str) {
         StringBuilder result = new StringBuilder(str);
-        int n = result.length();
-        int i = 0;
-        while(i < n/2){
-            if(result.charAt(i) != result.charAt(n-i-1)){
+        int left = 0;
+        int right = result.length();
+        while(left < right){
+            if(result.charAt(left) != result.charAt(right)){
                 return false;
             }
-            i++;
+            left++;
+            right--;
         }
         return true;
     }
