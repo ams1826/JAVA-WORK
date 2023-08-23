@@ -17,16 +17,17 @@ public class strPalindrome {
         return true;
     }
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        String s = scn.next();
-        for(int i=0; i<s.length(); i++){
-            for(int j=i+1; j<=s.length(); j++){
-                String ss = s.substring(i,j);
-                if(isPallindrome(ss)==true){
-                    System.out.println(ss+" ");
+        try (Scanner scn = new Scanner(System.in)) {
+            String s = scn.next();
+            for(int i=0; i<s.length(); i++){
+                for(int j=i+1; j<=s.length(); j++){
+                    String ss = s.substring(i,j);
+                    if(isPallindrome(ss)==true){
+                        System.out.println(ss+" ");
+                    }
                 }
+                System.out.println();
             }
-            System.out.println();
         }
     }
 }
