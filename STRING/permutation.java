@@ -12,8 +12,6 @@ by rearanging the letters
     -> Delete the remainder
 */
 
-package STRING;
-
 import java.util.Scanner;
 
 public class permutation {
@@ -45,8 +43,9 @@ public class permutation {
     }
 //Main FUNCTION
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        String str = scn.next();
-        PER(str);
+        try (Scanner scn = new Scanner(System.in)) {
+            String str = scn.next();
+            PER(str);
+        }
     }
 }

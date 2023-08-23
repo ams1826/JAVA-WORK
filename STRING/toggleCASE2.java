@@ -4,30 +4,31 @@
 import java.util.*;
 public class toggleCASE2 {
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        String str = scn.next();
-        StringBuilder sb = new StringBuilder();
-        int i=0;
-        int j=1;
-        while(i<str.length()){
-            char ch = str.charAt(i);
-            char s1 = str.charAt(i);
-            char s2 = str.charAt(j);
-            int d = s1 - s2;
-            if(ch>='a' && ch<='z'){
-                char ans = (char)((ch-'a')+'A');
-                sb.append(ans +" "+ d +" ");
+        try (Scanner scn = new Scanner(System.in)) {
+            String str = scn.next();
+            StringBuilder sb = new StringBuilder();
+            int i=0;
+            int j=1;
+            while(i<str.length()){
+                char ch = str.charAt(i);
+                char s1 = str.charAt(i);
+                char s2 = str.charAt(j);
+                int d = s1 - s2;
+                if(ch>='a' && ch<='z'){
+                    char ans = (char)((ch-'a')+'A');
+                    sb.append(ans +" "+ d +" ");
+                }
+                else if(ch>='A' && ch<='Z'){
+                    char ans = (char)((ch-'A')+'a');
+                    sb.append(ans +" "+ d +" ");
+                }
+                i++;
+                if(j<str.length()-1){
+                    j++;
+                }
             }
-            else if(ch>='A' && ch<='Z'){
-                char ans = (char)((ch-'A')+'a');
-                sb.append(ans +" "+ d +" ");
-            }
-            i++;
-            if(j<str.length()-1){
-                j++;
-            }
+            System.out.println(sb);
         }
-        System.out.println(sb);
     }
 }
 
