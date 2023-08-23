@@ -1,4 +1,3 @@
-import java.util.*;
 public class reverseString{
 
     public static String reverse(String str){
