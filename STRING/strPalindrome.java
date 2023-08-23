@@ -1,8 +1,5 @@
 //Printing every pallindrome present in a string
 
-package STRING;
-
-
 import java.util.Scanner;
 public class strPalindrome {
 
