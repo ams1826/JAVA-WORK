@@ -8,28 +8,39 @@
 */
 import java.util.*;
 public class anagram {
-    public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        String str1 = scn.next();
-        String str2 = scn.next();
-        int l1 = str1.length();
-        int l2 = str2.length();
-        int arr1[] = new int[26];
-        int arr2[] = new int[26];
-        for(int i=0 ; i<l1 ; i++){
-            int idx = str1.charAt(i) - 'a';
-            arr1[idx]++;
+
+    public static boolean anagramString(String str1, String str2) {
+        String result1 = str1.toLowerCase();
+        String result2 = str2.toLowerCase();
+
+        int[] charCount1 = new int[26];
+        int[] charCount2 = new int[26];
+        
+        for(char c : result1.toCharArray()){
+            charCount1[c - 'a']++;
         }
-        for(int i=0 ; i<l2 ; i++){
-            int idx = str2.charAt(i) - 'a';
-            arr2[idx]++;
+        for(char c : result2.toCharArray()){
+            charCount2[c - 'a']++;
         }
+
         for(int i=0 ; i<26 ; i++){
-            if(arr1[i] != arr2[i]){
-                System.out.print("not anagram");
-                return ;
+            if(charCount1[i] != charCount2[i]){
+                return false;
             }
         }
-        System.out.print("yes is an anagram");
+
+        return true;
+    }
+
+
+    public static void main(String[] args) {
+        try (Scanner scn = new Scanner(System.in)) {
+            String str1 = scn.next();
+            String str2 = scn.next();
+            if(anagramString(str1, str2)){
+                System.out.print("An anagram");
+            }
+            System.out.print("Not an anagram");
+        }
     }
 }
