@@ -5,7 +5,7 @@ public class countVowel {
     public static void countVowelsAndConsonants(String str) {
         int vowelCount = 0;
         
-        for(char ch : str.toCharArray()){
+        for(char ch : str.toUpperCase().toCharArray()){
             if((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')){
                 if (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U'){
                     vowelCount++;
