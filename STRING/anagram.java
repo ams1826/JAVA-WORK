@@ -64,5 +64,9 @@ public class anagram {
                 System.out.print("Not an anagram");
             }
         }
+        catch(Exception e){
+            System.out.println("Error occured " + e.getMessage());
+            e.printStackTrace();
+        }
     }
 }

@@ -47,5 +47,9 @@ public class permutation {
             String str = scn.next();
             PER(str);
         }
+        catch(Exception e){
+            System.out.println("Error occured " + e.getMessage());
+            e.printStackTrace();
+        }
     }
 }
