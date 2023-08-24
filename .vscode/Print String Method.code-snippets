@@ -10,9 +10,9 @@
 		"prefix": "ms",
 		"body": [
 			"public static String $1(String str$2) {",
-				"StringBuilder result = new StringBuilder(str);",
-				"$3",
-				"return result.toString();",
+			"\tStringBuilder result = new StringBuilder(str);",
+			"\t$3",
+			"\treturn result.toString();",
 			"}"
 		],
 		"description": "Log output to console"
