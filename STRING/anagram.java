@@ -9,7 +9,33 @@
 import java.util.*;
 public class anagram {
 
-    public static boolean anagramString(String str1, String str2) {
+//-----------------------------------------------------------------------------
+//            TC-> O(nlog(n))         SC-> O(n)
+//-----------------------------------------------------------------------------
+
+    // public static boolean areAnagrams(String str1, String str2) {
+    //     // Convert both strings to lowercase
+    //     str1 = str1.toLowerCase();
+    //     str2 = str2.toLowerCase();
+        
+    //     // Convert strings to char arrays and sort them
+    //     char[] arr1 = str1.toCharArray();
+    //     char[] arr2 = str2.toCharArray();
+    //     Arrays.sort(arr1);
+    //     Arrays.sort(arr2);
+        
+    //     // Compare sorted char arrays
+    //     return Arrays.equals(arr1, arr2);
+    // }
+
+
+
+
+//-----------------------------------------------------------------------------
+//            TC-> O(n)         SC-> O(1)
+//-----------------------------------------------------------------------------
+
+    public static boolean areAnagrams(String str1, String str2) {
         String result1 = str1.toLowerCase();
         String result2 = str2.toLowerCase();
 
@@ -23,13 +49,7 @@ public class anagram {
             charCount2[c - 'a']++;
         }
 
-        for(int i=0 ; i<26 ; i++){
-            if(charCount1[i] != charCount2[i]){
-                return false;
-            }
-        }
-
-        return true;
+        return Arrays.equals(charCount1,charCount2);
     }
 
 
@@ -37,10 +57,12 @@ public class anagram {
         try (Scanner scn = new Scanner(System.in)) {
             String str1 = scn.next();
             String str2 = scn.next();
-            if(anagramString(str1, str2)){
+            if(areAnagrams(str1, str2)){
                 System.out.print("An anagram");
             }
-            System.out.print("Not an anagram");
+            else{
+                System.out.print("Not an anagram");
+            }
         }
     }
 }
